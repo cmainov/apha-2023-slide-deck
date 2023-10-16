@@ -1,0 +1,4 @@
+\beamer@subsectionintoc {0}{1}{What is Food Insecurity?}{2}{0}{0}
+\beamer@sectionintoc {1}{U.S. County FI and COVID-19 Mortality}{5}{0}{1}
+\beamer@subsectionintoc {1}{1}{Research Question and Hypothesis}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Methods I}{6}{0}{1}

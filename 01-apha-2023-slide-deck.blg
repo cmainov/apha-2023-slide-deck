@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 01-apha-2023-slide-deck.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: 01-apha-2023-slide-deck-blx.bib
+Database file #2: 01-apha-2023-slide-deck.bib
+Biblatex version: 3.19
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 7 entries,
+            6399 wiz_defined-function locations,
+            1269 strings with 18150 characters,
+and the built_in function-call counts, 60333 in all, are:
+= -- 4432
+> -- 1783
+< -- 241
++ -- 2273
+- -- 1237
+* -- 4412
+:= -- 7302
+add.period$ -- 0
+call.type$ -- 7
+change.case$ -- 6
+chr.to.int$ -- 162
+cite$ -- 12
+duplicate$ -- 5235
+empty$ -- 5216
+format.name$ -- 393
+if$ -- 11466
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 0
+newline$ -- 305
+num.names$ -- 272
+pop$ -- 2126
+preamble$ -- 1
+purify$ -- 103
+quote$ -- 0
+skip$ -- 1280
+stack$ -- 0
+substring$ -- 9294
+swap$ -- 1216
+text.length$ -- 229
+text.prefix$ -- 6
+top$ -- 1
+type$ -- 226
+warning$ -- 0
+while$ -- 781
+width$ -- 0
+write$ -- 299

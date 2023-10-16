@@ -1,0 +1,396 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{coleman-jensen_household_2020}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CJA}{%
+         family={Coleman-Jensen},
+         familyi={C\bibinithyphendelim J\bibinitperiod},
+         given={Alisha},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJA1}
+    \strng{fullhash}{CJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    This report presents findings from data collected in December 2019 for the
+  year that preceded the Coronavirus Disease (COVID-19) pandemic. An estimated
+  89.5 percent of U.S. households were food secure throughout the entire year
+  in 2019, with access at all times to enough food for an active, healthy life
+  for all household members. The remaining households (10.5 percent, down from
+  11.1 percent in 2018) were food insecure at least some time during the year,
+  including 4.1 percent with very low food security (not significantly
+  different from 4.3 percent in 2018). Very low food security is the more
+  severe range of food insecurity where one or more household members
+  experienced reduced food intake and disrupted eating patterns at times during
+  the year because of limited money and other resources for obtaining food.
+  Among children, changes from 2018 in food insecurity and very low food
+  security were not statistically significant. Children and adults were food
+  insecure in 6.5 percent of U.S. households with children in 2019; very low
+  food security among children was 0.6 percent. In 2019, the typical
+  food-secure household spent 24 percent more on food than the typical
+  food-insecure household of the same size and household composition. About 58
+  percent of food-insecure households participated in one or more of the three
+  largest Federal nutrition assistance programs: Supplemental Nutrition
+  Assistance Program (SNAP, formerly food stamps); Special Supplemental
+  Nutrition Program for Women, Infants, and Children (WIC); and the National
+  School Lunch Program during the month prior to the 2019 survey.%
+    }
+    \field{number}{ERR-275}
+    \field{title}{Household {Food} {Security} in the {United} {States} in 2019}
+    \verb{file}
+    \verb Coleman-Jensen - 2019 - Household Food Security in the United States
+    \verb in 20.pdf:/Users/Chris/Zotero/storage/FEMJSW8G/Coleman-Jensen - 2019
+    \verb - Household Food Security in the United States in 20.pdf:application/
+    \verb pdf
+    \endverb
+    \field{journaltitle}{U.S. Department of Agriculture, Economic Research
+  Service}
+    \field{year}{2020}
+  \endentry
+
+  \entry{coleman-jensen_statistical_2022}{book}{}
+    \name{editor}{4}{}{%
+      {{hash=CJA}{%
+         family={Coleman-Jensen},
+         familyi={C\bibinithyphendelim J\bibinitperiod},
+         given={Alisha},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RMP}{%
+         family={Rabbitt},
+         familyi={R\bibinitperiod},
+         given={Matthew\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=GCA}{%
+         family={Gregory},
+         familyi={G\bibinitperiod},
+         given={Christian\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Anita},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \keyw{Food security, food insecurity, Consumer/Household Economics,
+  emergency kitchen, material well-being, SNAP, Supplemental Nutrition
+  Assistance Program, National School Lunch Program, WIC, Special Supplemental
+  Nutrition Program for Women, Infants, and Children, COVID-19, coronavirus
+  pandemic, Food Consumption/Nutrition/Food Safety, food pantry, Food Security
+  and Poverty, food spending, Health Economics and Policy, Research Methods/
+  Statistical Methods, soup kitchen}
+    \strng{namehash}{CJA+1}
+    \strng{fullhash}{CJARMPGCASA1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    This supplement provides statistics that complement those in Household Food
+  Security in the United States in 2021. That research report provides the
+  primary national statistics on household food security, food spending, and
+  use of Federal food and nutrition assistance programs by food-insecure
+  households. Additional statistics here cover component items of the household
+  food security measure, the frequency of occurrence of food-insecure
+  conditions, and selected statistics on household food security, food
+  spending, and use of Federal and community food and nutrition assistance
+  programs%
+    }
+    \verb{doi}
+    \verb 10.22004/ag.econ.329071
+    \endverb
+    \field{series}{{AP}-105}
+    \field{title}{Statistical {Supplement} to {Household} {Food} {Security} in
+  the {United} {States} in 2021}
+    \field{year}{2022}
+  \endentry
+
+  \entry{gundersen_food_2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GC}{%
+         family={Gundersen},
+         familyi={G\bibinitperiod},
+         given={Craig},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ZJP}{%
+         family={Ziliak},
+         familyi={Z\bibinitperiod},
+         given={James\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{GCZJP1}
+    \strng{fullhash}{GCZJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Almost fifty million people are food insecure in the United States, which
+  makes food insecurity one of the nation’s leading health and nutrition
+  issues. We examine recent research evidence of the health consequences of
+  food insecurity for children, nonsenior adults, and seniors in the United
+  States. For context, we first provide an overview of how food insecurity is
+  measured in the country, followed by a presentation of recent trends in the
+  prevalence of food insecurity. Then we present a survey of selected recent
+  research that examined the association between food insecurity and health
+  outcomes. We show that the literature has consistently found food insecurity
+  to be negatively associated with health. For example, after confounding risk
+  factors were controlled for, studies found that food-insecure children are at
+  least twice as likely to report being in fair or poor health and at least 1.4
+  times more likely to have asthma, compared to food-secure children; and
+  foodinsecure seniors have limitations in activities of daily living
+  comparable to those of food-secure seniors fourteen years older. The
+  Supplemental Nutrition Assistance Program (SNAP) substantially reduces the
+  prevalence of food insecurity and thus is critical to reducing negative
+  health outcomes.%
+    }
+    \verb{doi}
+    \verb 10.1377/hlthaff.2015.0645
+    \endverb
+    \field{issn}{0278-2715, 1544-5208}
+    \field{number}{11}
+    \field{pages}{1830\bibrangedash 1839}
+    \field{title}{Food {Insecurity} {And} {Health} {Outcomes}}
+    \verb{url}
+    \verb http://www.healthaffairs.org/doi/10.1377/hlthaff.2015.0645
+    \endverb
+    \field{volume}{34}
+    \verb{file}
+    \verb Gundersen and Ziliak - 2015 - Food Insecurity And Health Outcomes.pdf
+    \verb :/Users/Chris/Zotero/storage/254L8ZRC/Gundersen and Ziliak - 2015 - F
+    \verb ood Insecurity And Health Outcomes.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Health Affairs}
+    \field{month}{11}
+    \field{year}{2015}
+    \field{urlday}{12}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{seligman_hunger_2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SHK}{%
+         family={Seligman},
+         familyi={S\bibinitperiod},
+         given={Hilary\bibnamedelima K.},
+         giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Schillinger},
+         familyi={S\bibinitperiod},
+         given={Dean},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{SHKSD1}
+    \strng{fullhash}{SHKSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1056/NEJMp1000072
+    \endverb
+    \field{issn}{0028-4793, 1533-4406}
+    \field{number}{1}
+    \field{pages}{6\bibrangedash 9}
+    \field{title}{Hunger and {Socioeconomic} {Disparities} in {Chronic}
+  {Disease}}
+    \verb{url}
+    \verb http://www.nejm.org/doi/abs/10.1056/NEJMp1000072
+    \endverb
+    \field{volume}{363}
+    \verb{file}
+    \verb Seligman and Schillinger - 2010 - Hunger and Socioeconomic Disparitie
+    \verb s in Chronic Di.pdf:/Users/Chris/Zotero/storage/9G7HTWHU/Seligman and
+    \verb  Schillinger - 2010 - Hunger and Socioeconomic Disparities in Chronic
+    \verb  Di.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{New England Journal of Medicine}
+    \field{month}{07}
+    \field{year}{2010}
+    \field{urlday}{20}
+    \field{urlmonth}{02}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{shaker_redlining_2022}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SY}{%
+         family={Shaker},
+         familyi={S\bibinitperiod},
+         given={Yasamin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GSE}{%
+         family={Grineski},
+         familyi={G\bibinitperiod},
+         given={Sara\bibnamedelima E.},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=CTW}{%
+         family={Collins},
+         familyi={C\bibinitperiod},
+         given={Timothy\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=FAB}{%
+         family={Flores},
+         familyi={F\bibinitperiod},
+         given={Aaron\bibnamedelima B.},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Food access, Food justice, HOLC zones, Racially/ethnically
+  minoritized groups, Redlining}
+    \strng{namehash}{SY+1}
+    \strng{fullhash}{SYGSECTWFAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    In the 1930s, the Home Owners’ Loan Corporation (HOLC) graded the
+  mortgage security of urban US neighborhoods. In doing so, the HOLC engaged in
+  the practice, imbued with racism and xenophobia, of “redlining”
+  neighborhoods deemed “hazardous” for lenders. Redlining has caused
+  persistent social, political and economic problems for communities of color.
+  Linkages between redlining and contemporary food access remain unexamined,
+  even though food access is essential to well-being. To investigate this, we
+  used a census tract-level measure of low-income and low grocery store food
+  access from the US Department of Agriculture Food Access Research Atlas,
+  redlining data from Mapping Inequality Project, and demographic data from the
+  American Community Survey. We employed generalized estimating equations with
+  robust covariance estimates to analyze data pertaining to 10,459 census
+  tracts in 202 US cities. Tracts that the HOLC graded as “C” (“decline
+  in desirability”) and “D” (“hazardous”) had reduced contemporary
+  food access compared to those graded “A” (“best”). Increases in
+  contemporary census tract proportions of Black, Hispanic, or other
+  racial/ethnic minority residents, as well as disabled residents, were
+  associated with reduced food access. Increases in contemporary proportions of
+  residents age 75 years and older or those without a car were associated with
+  better food access. Tracts that underwent housing redevelopment since being
+  graded had better food access, while those undergoing gentrification had
+  reduced food access. Results suggest that issues of redlining, housing
+  discrimination, racism, ableism, displacement, and food inaccessibility are
+  deeply intertwined.%
+    }
+    \verb{doi}
+    \verb 10.1007/s10460-022-10340-3
+    \endverb
+    \field{issn}{1572-8366}
+    \field{title}{Redlining, racism and food access in {US} urban cores}
+    \verb{url}
+    \verb https://doi.org/10.1007/s10460-022-10340-3
+    \endverb
+    \verb{file}
+    \verb Full Text PDF:/Users/Chris/Zotero/storage/L82UVL9L/Shaker et al. - 20
+    \verb 22 - Redlining, racism and food access in US urban core.pdf:applicati
+    \verb on/pdf
+    \endverb
+    \field{journaltitle}{Agriculture and Human Values}
+    \field{month}{07}
+    \field{year}{2022}
+    \field{urlday}{15}
+    \field{urlmonth}{02}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{swann_household_2017}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SCA}{%
+         family={Swann},
+         familyi={S\bibinitperiod},
+         given={Christopher\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Food security, Food stamps, SNAP}
+    \strng{namehash}{SCA1}
+    \strng{fullhash}{SCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Food security in an important public policy issue. In 2015, approximately 1
+  in 8U.S. households experienced food insecurity at some point in the year.
+  Low-income families are at higher risk for food insecurity than other
+  families, and these families may also face higher levels of disruption (e.g.,
+  moves, loss of income, or individuals entering or leaving the household) than
+  other families. I use data from the Survey of Income and Program
+  Participation to explore the relationship between food insecurity, the
+  household’s history during the previous year, and SNAP participation. The
+  results indicate that a number of aspects of the household’s recent
+  experience including negative income shocks, moves, and both increases and
+  decreases in household size increase the probability of being food insecure
+  while SNAP participation is estimated to reduce the probability of being food
+  insecure.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.foodpol.2017.08.006
+    \endverb
+    \field{issn}{0306-9192}
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{Household history, {SNAP} participation, and food insecurity}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0306919217306796
+    \endverb
+    \field{volume}{73}
+    \verb{file}
+    \verb ScienceDirect Full Text PDF:/Users/Chris/Zotero/storage/J8R8KUI5/Swan
+    \verb n - 2017 - Household history, SNAP participation, and food in.pdf:app
+    \verb lication/pdf;ScienceDirect Snapshot:/Users/Chris/Zotero/storage/24Z9Z
+    \verb XL3/S0306919217306796.html:text/html
+    \endverb
+    \field{journaltitle}{Food Policy}
+    \field{month}{12}
+    \field{year}{2017}
+    \field{urlday}{15}
+    \field{urlmonth}{02}
+    \field{urlyear}{2023}
+  \endentry
+\enddatalist
+\endinput
