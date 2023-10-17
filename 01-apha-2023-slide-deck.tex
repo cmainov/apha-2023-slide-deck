@@ -11,7 +11,7 @@
 \definecolor{beamer@uiucgray2}{RGB}{244,244,244} 
 
 \usetheme{AnnArbor}
-\setbeamercolor{frametitle}{fg=beamer@nihblue,bg=beamer@uiucgray}
+\setbeamercolor{frametitle}{fg=beamer@nihgrey,bg=beamer@uiucgray}
 \usecolortheme{wolverine} 
   
 
@@ -133,23 +133,9 @@
 
 %% end title page preamble %%
 
-%% add progress bar to footline %%
-\addtobeamertemplate{headline}{%
-	\leavevmode%
-	\hbox{%
-		\begin{beamercolorbox}[wd=\paperwidth,ht=2.25ex,dp=1ex,center]{section in head/foot}%
-			\insertsectionnavigationhorizontal{\paperwidth}{}{}
-	\end{beamercolorbox}}%
-	
-}
 
 
-	% following lines ensure top color bar is consistent solid color and touches top of page
-\setbeamertemplate{headline}{  
-	\begin{beamercolorbox}[ht=6ex,wd=1\textwidth]{section in head/foot}
-	\end{beamercolorbox} %
-	% redefine headline locally for title frame
-}
+
 
 %% Start of Document %%
 \begin{document}
@@ -157,18 +143,33 @@
 
 
 
-% now begin title frame
+%% custom/local formatting of title slide %%
+{
+	\setbeamertemplate{logo}{} % use of the preceding opening brace and this command removes logo % % from the title page
+	
+	% add U of I color banner to top of slide and remove  navigation bar
+	\setbeamertemplate{headline}{  
+		\begin{beamercolorbox}[ht=3ex,wd=1\textwidth]{section in head/foot}
+		\end{beamercolorbox} %
+		% redefine headline locally for title frame
+		\begin{beamercolorbox}[ht=3ex,wd=1\textwidth]{block title}
+		\end{beamercolorbox} 
+		\begin{beamercolorbox}[ht=2ex,wd=1\textwidth]{white}
+		\end{beamercolorbox} 
+	}
 	\begin{frame}
-	\titlepage{}
-\end{frame}
+		\titlepage{}
+	\end{frame}
+}
 
 % define FI
+\section{Introduction}
 \subsection{What is Food Insecurity?}
 \begin{frame}
 	\frametitle{Defining Food Insecurity}
 	
 	
-	According to the United States Dept. of Agriculture (USDA) \textbf{food insecurity} is defined as: \textit{a lack of consistent access to enough food for every person in a household to live an active, healthy life.}
+	According to the United States Dept. of Agriculture (USDA) \textbf{food insecurity} (FI) is defined as: \textit{a lack of consistent access to enough food for every person in a household to live an active, healthy life.}
 	
 \end{frame}
 
@@ -218,7 +219,6 @@
 \end{frame}
 
   %hypotheses and rq
-\section{U.S. County FI and COVID-19 Mortality}
 \subsection{Research Question and Hypothesis}
 
 %hypotheses and rq
@@ -233,7 +233,8 @@
 	\end{center}
 \end{frame}
 
- \subsection{Methods I}
+ \section{Methods}
+ \subsection{Variables}
 \begin{frame}
 	\frametitle{Analysis Plan}
 \begin{itemize}

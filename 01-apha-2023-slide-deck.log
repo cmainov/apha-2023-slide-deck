@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.14)  16 OCT 2023 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.14)  16 OCT 2023 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1244,24 +1244,24 @@ ftex.tex))
  (./01-apha-2023-slide-deck.aux)
 \openout1 = `01-apha-2023-slide-deck.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1319,64 +1319,64 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 155.
+Package hyperref Info: Link coloring OFF on input line 141.
 
 (./01-apha-2023-slide-deck.out) (./01-apha-2023-slide-deck.out)
 \@outlinefile=\write6
 \openout6 = `01-apha-2023-slide-deck.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 155.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 141.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 155.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 141.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 155.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 141.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 155.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 155.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 155.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 141.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 155.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 155.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 155.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 141.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 155.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 155.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 155.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 141.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 155.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 155.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 141.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 155.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 141.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 155.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 155.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 155.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 155.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 155.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 141.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 155.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 155.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 141.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 141.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
-55.
+41.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 1
-55.
+41.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 155.
+ut line 141.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1420,45 +1420,45 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '01-apha-2023-slide-deck.bbl' found.
 
 (./01-apha-2023-slide-deck.bbl)
-Package biblatex Info: Reference section=0 on input line 155.
-Package biblatex Info: Reference segment=0 on input line 155.
+Package biblatex Info: Reference section=0 on input line 141.
+Package biblatex Info: Reference segment=0 on input line 141.
  (./01-apha-2023-slide-deck.nav)
-<images-logos/nia-logo.svg.png, id=42, 2569.6pt x 284.06125pt>
+<images-logos/nia-logo.svg.png, id=48, 2569.6pt x 284.06125pt>
 File: images-logos/nia-logo.svg.png Graphic file (type png)
 <use images-logos/nia-logo.svg.png>
-Package pdftex.def Info: images-logos/nia-logo.svg.png  used on input line 163.
+Package pdftex.def Info: images-logos/nia-logo.svg.png  used on input line 162.
 
 (pdftex.def)             Requested size: 167.02986pt x 18.46461pt.
-<images-logos/nih-logo.png, id=44, 375.4025pt x 330.23375pt>
-File: images-logos/nih-logo.png Graphic file (type png)
-<use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 163.
-(pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
- [1
+
+Overfull \vbox (1.60002pt too high) has occurred while \output is active []
+
+
+[1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-s-logos/nih-logo.png> <./images-logos/nia-logo.svg.png>]
+s-logos/nia-logo.svg.png>]
+<images-logos/nih-logo.png, id=83, 375.4025pt x 330.23375pt>
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 173.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 174.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
  [2
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 192
+ <./images-logos/nih-logo.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 193
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 192
+LaTeX Font Info:    Trying to load font information for U+msb on input line 193
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 192.
+ut line 193.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1466,18 +1466,18 @@ thkerncmss.
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <6> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 192.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 193.
 
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 192.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 193.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
 [3
 
 ]
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 218.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 219.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
  [4
 
@@ -1491,35 +1491,35 @@ Package pdftex.def Info: images-logos/nih-logo.png  used on input line 234.
 ]
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 254.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 255.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
  [6
 
 ]
-<images-logos/covariates-table.png, id=224, 2117.9125pt x 2575.6225pt>
+<images-logos/covariates-table.png, id=249, 2117.9125pt x 2575.6225pt>
 File: images-logos/covariates-table.png Graphic file (type png)
 <use images-logos/covariates-table.png>
 Package pdftex.def Info: images-logos/covariates-table.png  used on input line 
-273.
+274.
 (pdftex.def)             Requested size: 175.77054pt x 213.75696pt.
-<images-logos/covariates-table-footer.png, id=225, 2112.89375pt x 492.84125pt>
+<images-logos/covariates-table-footer.png, id=250, 2112.89375pt x 492.84125pt>
 File: images-logos/covariates-table-footer.png Graphic file (type png)
 <use images-logos/covariates-table-footer.png>
 Package pdftex.def Info: images-logos/covariates-table-footer.png  used on inpu
-t line 273.
+t line 274.
 (pdftex.def)             Requested size: 175.35402pt x 40.90204pt.
 
-Overfull \hbox (11.05374pt too wide) in paragraph at lines 273--273
+Overfull \hbox (11.05374pt too wide) in paragraph at lines 274--274
  [][]
  []
 
 
-Overfull \vbox (0.68631pt too high) detected at line 273
+Overfull \vbox (4.4196pt too high) detected at line 274
  []
 
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 273.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 274.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
 [7
 
@@ -1537,39 +1537,35 @@ png>]
  (./01-apha-2023-slide-deck.aux)
 Package rerunfilecheck Info: File `01-apha-2023-slide-deck.out' has not changed
 .
-(rerunfilecheck)             Checksum: 6EB87E7402CCE68E72EF8960AE44CAC4;750.
+(rerunfilecheck)             Checksum: 4623F39D0B3459864FEC80F5A152D13B;695.
 Package logreq Info: Writing requests to '01-apha-2023-slide-deck.run.xml'.
 \openout1 = `01-apha-2023-slide-deck.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37709 strings out of 476025
- 768559 string characters out of 5790017
- 1868388 words of memory out of 5000000
- 57493 multiletter control sequences out of 15000+600000
+ 37734 strings out of 476025
+ 769242 string characters out of 5790017
+ 1870388 words of memory out of 5000000
+ 57518 multiletter control sequences out of 15000+600000
  525614 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,1913b,2085s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Navigation8} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local
-/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on 01-apha-2023-slide-deck.pdf (7 pages, 894764 bytes).
+ 128i,17n,122p,1913b,2085s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
+b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/l
+ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/loc
+al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on 01-apha-2023-slide-deck.pdf (7 pages, 897097 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
+ 342 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
  20 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
