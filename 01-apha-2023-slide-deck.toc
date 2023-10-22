@@ -3,3 +3,7 @@
 \beamer@subsectionintoc {1}{2}{Research Question and Hypothesis}{5}{0}{1}
 \beamer@sectionintoc {2}{Methods}{6}{0}{2}
 \beamer@subsectionintoc {2}{1}{Variables}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Model Specification}{8}{0}{2}
+\beamer@sectionintoc {3}{Results}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Descriptives}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Spatial Models w/ INLA (JHU Data)}{11}{0}{3}

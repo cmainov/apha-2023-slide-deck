@@ -24,8 +24,27 @@
 \headcommand {\beamer@framepages {6}{6}}
 \headcommand {\slideentry {2}{1}{2}{7/7}{Variables}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@partpages {1}{7}}
 \headcommand {\beamer@subsectionpages {6}{7}}
-\headcommand {\beamer@sectionpages {6}{7}}
-\headcommand {\beamer@documentpages {7}}
-\headcommand {\gdef \inserttotalframenumber {7}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{8}{Model Specification}}
+\headcommand {\slideentry {2}{2}{1}{8/8}{Model Specification}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {2}{2}{2}{9/9}{Model Specification}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@sectionpages {6}{9}}
+\headcommand {\beamer@subsectionpages {8}{9}}
+\headcommand {\sectionentry {3}{Results}{10}{Results}{0}}
+\headcommand {\beamer@subsectionpages {10}{9}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{10}{Descriptives}}
+\headcommand {\slideentry {3}{1}{1}{10/10}{Descriptives}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{11}{Spatial Models w/ INLA (JHU Data)}}
+\headcommand {\slideentry {3}{2}{1}{11/11}{Spatial Models w/ INLA (JHU Data)}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {3}{2}{2}{12/12}{Spatial Models w/ INLA (JHU Data)}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@partpages {1}{12}}
+\headcommand {\beamer@subsectionpages {11}{12}}
+\headcommand {\beamer@sectionpages {10}{12}}
+\headcommand {\beamer@documentpages {12}}
+\headcommand {\gdef \inserttotalframenumber {12}}

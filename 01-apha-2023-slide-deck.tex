@@ -122,10 +122,12 @@
 []{\Large County-level Food Insecurity and COVID-19 Mortality in the United States: A Spatial
 	Analysis with R-INLA}
 
-\author[Maino Vieytes CA]{Christian Maino Vieytes, PhD, MS} % name in [ ] is what goes in  footline, the name in brackets is what goes on title page
+\author[Maino Vieytes CA]{Christian Maino Vieytes, PhD MS} % name in [ ] is what goes in  footline, the name in brackets is what goes on title page
 
 %% Institute name and U of I workmark %%
-\institute[]{
+%% Institute name and U of I workmark %%
+\institute[]{\color{beamer@nihgrey}Laboratory for Epidemiology and Population Sciences \\ % use [] to not have the institute name on the footline
+\vspace{7px} % space between name for LEPS and NIA logo
 \includegraphics[scale=0.065]{images-logos/nia-logo.svg.png} } % note that the insertion  of the U of I 
 
 %  % workmark occurs within the \institute
@@ -140,9 +142,6 @@
 %% Start of Document %%
 \begin{document}
 	
-
-
-
 %% custom/local formatting of title slide %%
 {
 	\setbeamertemplate{logo}{} % use of the preceding opening brace and this command removes logo % % from the title page
@@ -272,6 +271,129 @@
 		
 	\end{minipage}
 \end{frame}    
-                \end{document}
+
+
+% write out the model
+\subsection{Model Specification}
+    \begin{frame}
+	\frametitle{A Model for the Standardized Mortality Ratio (SMR)}
+	
+	\textbf{Spatial features}: county polygons
+	\begin{itemize}
+		\item A model for areal data
+		\item Hierarchical Intrinsic Conditional Autoregressive Model (iCAR) \footlessfullcite{besag_spatial_1974}
+		\begin{itemize}
+			\item \textit{Level I}: counties (\textcolor{blue}{$i$}), \textit{Level II}: states (\textcolor{blue}{$j$})
+		\end{itemize}
+	\end{itemize}
+	\centering
+	\begin{tcolorbox}[width = 7.2cm, colframe = red!75!black, title = \scriptsize{Model Specified}, height = 1.5cm, valign=center, halign=center, halign title = center]
+		\textcolor{blue}{$$\ln(\mu_{ij})=\alpha+\mathbf{x}_{ij}^T\boldsymbol{\gamma}+\ln(E_{i})+\upsilon_{i}+u_{j}+e_{i}$$}
+	\end{tcolorbox}
+	
+	\scriptsize{ \textcolor{blue}{$E_i$} is the expected death count of the  \textcolor{blue}{$i^{th}$} county}\\
+	   \scriptsize{  \textcolor{blue}{$\upsilon_{i}$} is a spatially structured random effect:  \textcolor{blue}{$\upsilon_{i}|\upsilon_{k}\sim N(\frac{\sum_{k=1}^{n}{w_{ik}\upsilon_k}}{\sum_{k=1}^{n}{w_{ik}}}, \frac{\tau^2}{\sum_{k=1}^{n}{w_{ik}}})$}} \\
+	       \tiny{where  \textcolor{blue}{$n$} are the no. of counties,  \textcolor{blue}{$\tau^2$} is the spatial variance,\\ \textcolor{blue}{$w_{ik}$} is the \textcolor{blue}{$i,k$-th} entry in the \textcolor{blue}{$n \times n$} adjacency matrix \textcolor{blue}{$\mathbf{W}$}, and  \textcolor{blue}{$i\neq k$}}\\
+	       
+	                    \scriptsize{  \textcolor{blue}{$u_{j}$} is an unstructured state-level random effect:  \textcolor{blue}{$u_{j} \sim N(0,\sigma^2_u)$}}\\
+	       \vspace{0.2cm}
+	       \scriptsize{  \textcolor{blue}{$e_{i}$} is an unstructured county-level random effect:  \textcolor{blue}{$e_{i} \sim N(0,\sigma^2_e)$}}
+
+	\end{frame}
+	
+	
+    \begin{frame}
+	\frametitle{Additional Analytical Considerations}
+	\begin{itemize}
+		\item Stratify on Census region
+		\item Sequential Adjustment:
+		\begin{itemize}
+			\item \textbf{Null Model}\textcolor{gray}{: no fixed effects, only random effs. + offset term}
+			\item \textbf{Basic Model}\textcolor{gray}{: further adjust for county health index, median age, COVID-19 standardized incidence ratio (SIR)}
+			\item \textbf{Basic + State Model}\textcolor{gray}{: further adjust for state-level means of health index, median age, COVID-19 SIR, 2020 general election vote differential (\%)}
+			\item \textbf{Final Model}\textcolor{gray}{: further adjust for FI and other covariates selected via forward selection w/ Watanabe-Aikake Information Criterion (WAIC)}
+		\end{itemize}
+		
+		\item Sensitivity Analyses
+		\begin{itemize}
+			\item \textcolor{gray}{Deviance Information Criterion for selection}
+			\item \textcolor{gray}{Removal of states with suspiciously low mortality rates}
+			\item \textcolor{gray}{Priors}
+		\end{itemize}
+		
+	\end{itemize}
+\end{frame}
+
+
+
+\section{Results}
+\subsection{Descriptives}
+\begin{frame}
+	\begin{minipage}{.52\textwidth}
+		\hspace{-0.5cm}
+		\centering
+		\includegraphics[scale=0.097]{images-logos/combo-chloro-time-series.png}\\
+		
+		
+	\end{minipage}% the '%' is important for putting the mini pages side by side and not stacked
+	\hspace{1.65 cm}
+	\begin{minipage}{.30\textwidth}
+			\vspace{-0.3 cm}
+		\raggedright
+	\tiny{\textbf{Figure 1}. \textit{Panel A}: Spatial distributions of the age-standardized dependent variables (from both the Johns Hopkins University Coronavirus Resource Center (JHU) and Centers for Disease Control and Prevention (CDC) data sources) and independent variable (food insecurity prevalence from Feeding America’s Map the Meal Gap). \\ 
+		
+\vspace{0.21cm}
+
+		\textit{Panel B}: A time series depiction of the cumulative crude (not age- standardized) COVID-19 mortality counts, within the analytic time window, from both sources (mapped to the line colors) and further stratified on urban-rural status (mapped to the line-type). The starting and end dates plotted are based on the beginning and end dates of the first and last MMWR week for the analytics time window.}
+		
+	\end{minipage}
+\end{frame}    
+
+
+ 	\setbeamertemplate{logo}{} % remove logo on next slide
+ \subsection{Spatial Models w/ INLA (JHU Data)}
+\begin{frame}
+	
+	
+	
+	\vspace*{-0.04 cm}
+	\hspace*{-0.45 cm}
+	\includegraphics[scale=0.152]{images-logos/combo-forest-map-decomp-jhu.png}
+	
+	\raggedright
+	\tiny{\textbf{Figure 2}. \textit{Panel A}: Means and their 95\% credible intervals (CrIs) for posterior distributions of the coefficient parameters for the food insecurity (FI) fixed effect for the final model (reflecting a standard deviation--4\%-- increase). A model was fit to the entire dataset (i.e., the National model) and a stratified analysis was conducted per Census region. Open circles denote posterior means with 95\% CrIs whose bounds are completely above or below the reference value of 1 (dashed line). Results are shown for the analysis performed only on the age-standardized Johns Hopkins (JHU) COVID-19 mortality data. 
+		
+		\vspace{0.25cm}
+		
+		\textit{Panel B}: Map decomposition for the final model using national JHU data.\\
+		$^a$ $\psi=\frac{SD(\upsilon)}{SD(\upsilon)+SD(u)+SD(e)}$;
+		$^b$ The overall risk, or standardized mortality ratio (SMR) in the log scale, from the final model.\\
+		The final model adjusted for county-level median age, health index score, and the standardized incidence ratio (SIR, state-level means of the health index score, the SIR, percent vaccinated, and the 2020 general election margin, percent female inhabitants and percent Hispanic inhabitants. Additional covariates in the final model were selected by forward selection with the Watanabe-Aikake Information Criterion (WAIC).}
+	
+	
+\end{frame}
+
+ \begin{frame}
+\vspace*{-0.1cm}
+			\begin{figure}
+				\centering
+				\includegraphics[scale=0.076]{images-logos/combo-res-var-nbs-jhu.png}
+				
+			\end{figure}      
+			\vspace{-0.17cm}
+			\tiny{\textbf{Figure 3}. \textit{Panel A}: Residual variance, computed as the sum of the variances of the random effects, across all models using national JHU data.  \textit{Panel B}: Standard deviation of the spatially structured random effect (in the final model using national JHU data) mapped to the number of neighbors. The LOESS smoother is shown.\\
+				The null model includes the three random effects listed in addition to the offset term and no fixed effects.\\
+				The basic model further adjusted for county-level median age, health index score, and the standardized incidence ratio (SIR).\\
+				The basic + state model further adjusted for state-level means of the health index score, the SIR, percent vaccinated, and the 2020 general election margin.\\
+				The final model further adjusted for NCHS urban-rural classification. Covariates were selected by forward selection.
+			}
+
+
+
+\end{frame}
+
+\end{document}
+
+
 %% End of Document %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
