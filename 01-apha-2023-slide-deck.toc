@@ -7,3 +7,5 @@
 \beamer@sectionintoc {3}{Results}{10}{0}{3}
 \beamer@subsectionintoc {3}{1}{Descriptives}{10}{0}{3}
 \beamer@subsectionintoc {3}{2}{Spatial Models w/ INLA (JHU Data)}{11}{0}{3}
+\beamer@subsectionintoc {3}{3}{Spatial Models w/ INLA (CDC Data)}{13}{0}{3}
+\beamer@subsectionintoc {3}{4}{State Sensitivity Analysis: Spatial Models w/ INLA (CDC Data)}{14}{0}{3}

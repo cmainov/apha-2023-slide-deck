@@ -349,7 +349,7 @@
 	\end{minipage}
 \end{frame}    
 
-
+%% JHU results %%
  	\setbeamertemplate{logo}{} % remove logo on next slide
  \subsection{Spatial Models w/ INLA (JHU Data)}
 \begin{frame}
@@ -361,7 +361,7 @@
 	\includegraphics[scale=0.152]{images-logos/combo-forest-map-decomp-jhu.png}
 	
 	\raggedright
-	\tiny{\textbf{Figure 2}. \textit{Panel A}: Means and their 95\% credible intervals (CrIs) for posterior distributions of the coefficient parameters for the food insecurity (FI) fixed effect for the final model (reflecting a standard deviation--4\%-- increase). A model was fit to the entire dataset (i.e., the National model) and a stratified analysis was conducted per Census region. Open circles denote posterior means with 95\% CrIs whose bounds are completely above or below the reference value of 1 (dashed line). Results are shown for the analysis performed only on the age-standardized Johns Hopkins (JHU) COVID-19 mortality data. 
+	\tiny{\textbf{Figure 2}. \textit{Panel A}: Means and their 95\% credible intervals (CrIs) for posterior distributions of the $exp(parameter)$ for the food insecurity (FI) fixed effect for the \textit{final model} (reflecting a standard deviation--4\%-- increase). A model was fit to the entire dataset (i.e., the National model) and a stratified analysis was conducted per Census region. Open circles denote posterior means with 95\% CrIs whose bounds are completely above or below the reference value of 1 (dashed line). Results are shown for the analysis performed only on the age-standardized Johns Hopkins (JHU) COVID-19 mortality data. 
 		
 		\vspace{0.25cm}
 		
@@ -385,11 +385,74 @@
 				The null model includes the three random effects listed in addition to the offset term and no fixed effects.\\
 				The basic model further adjusted for county-level median age, health index score, and the standardized incidence ratio (SIR).\\
 				The basic + state model further adjusted for state-level means of the health index score, the SIR, percent vaccinated, and the 2020 general election margin.\\
-				The final model further adjusted for NCHS urban-rural classification. Covariates were selected by forward selection.
+				The final model further adjusted for percent female inhabitants and percent Hispanic inhabitants. 
 			}
 
 
 
+\end{frame}
+
+
+ 	\setbeamertemplate{logo}{} % remove logo on next slide
+\subsection{Spatial Models w/ INLA (CDC Data)}
+\begin{frame}
+	
+	
+	
+	\vspace*{-0.04 cm}
+	\hspace*{-0.45 cm}
+	\includegraphics[scale=0.152]{images-logos/combo-forest-map-decomp-cdc.png}
+	
+	\raggedright
+	\tiny{\textbf{Figure 2}. \textit{Panel A}: Means and their 95\% credible intervals (CrIs) for posterior distributions of the $exp(parameter)$ for the food insecurity (FI) fixed effect for the \textit{final model} (reflecting a standard deviation--4\%-- increase). A model was fit to the entire dataset (i.e., the National model) and a stratified analysis was conducted per Census region. Open circles denote posterior means with 95\% CrIs whose bounds are completely above or below the reference value of 1 (dashed line). Results are shown for the analysis performed only on the age-standardized CDC COVID-19 mortality data. 
+		
+		\vspace{0.25cm}
+		
+		\textit{Panel B}: Map decomposition for the final model using national CDC data.\\
+		$^a$ $\psi=\frac{SD(\upsilon)}{SD(\upsilon)+SD(u)+SD(e)}$;
+		$^b$ The overall risk, or standardized mortality ratio (SMR) in the log scale, from the final model.\\
+		The final model adjusted for county-level median age, health index score, and the standardized incidence ratio (SIR, state-level means of the health index score, the SIR, percent vaccinated, and the 2020 general election margin, percent non-Hispanic White inhabitants. Additional covariates in the final model were selected by forward selection with the Watanabe-Aikake Information Criterion (WAIC).}
+	
+	
+\end{frame}
+
+
+\subsection{State Sensitivity Analysis: Spatial Models w/ INLA (CDC Data)}
+\begin{frame}
+	
+	
+	
+	\vspace*{-0.04 cm}
+	\hspace*{-0.45 cm}
+	\includegraphics[scale=0.152]{images-logos/sensitivity-combo-forest-map-decomp-cdc.png}
+	
+	\raggedright
+	\tiny{\textbf{Figure S5}. \textit{Panel A}: Means and their 95\% credible intervals (CrIs) for posterior distributions of the $exp(parameter)$ for the food insecurity (FI) fixed effect for the \textit{final model} (reflecting a standard deviation--4\%-- increase). A model was fit to the entire dataset (i.e., the National model) and a stratified analysis was conducted per Census region. Open circles denote posterior means with 95\% CrIs whose bounds are completely above or below the reference value of 1 (dashed line). Results are shown for the analysis performed only on the age-standardized CDC COVID-19 mortality data. 
+		
+		\vspace{0.25cm}
+		
+		\textit{Panel B}: Map decomposition for the final model using national CDC data.\\
+		$^a$ $\psi=\frac{SD(\upsilon)}{SD(\upsilon)+SD(u)+SD(e)}$;
+		$^b$ The overall risk, or standardized mortality ratio (SMR) in the log scale, from the final model.\\
+		The final model adjusted for county-level median age, health index score, and the standardized incidence ratio (SIR, state-level means of the health index score, the SIR, percent vaccinated, and the 2020 general election margin, percent non-Hispanic White inhabitants. Additional covariates in the final model were selected by forward selection with the Watanabe-Aikake Information Criterion (WAIC).}
+	
+	
+\end{frame}
+	
+
+
+\begin{frame}
+		
+\centering
+		\vspace*{-0.19 cm}
+
+		\includegraphics[scale=0.09]{images-logos/compare-cdc-res-var.png}
+		
+	
+		
+		\tiny{\textit{Panel A}: Total residual variance and relative composition from the main analysis using the CDC data (\textit{final model}).\\
+			\textit{Panel B}: Total residual variance and relative composition from the state sensitivity analysis using the CDC data (\textit{final model}).}
+			
 \end{frame}
 
 \end{document}

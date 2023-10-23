@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.14)  22 OCT 2023 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.14)  23 OCT 2023 09:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1423,7 +1423,7 @@ Package biblatex Info: ... file '01-apha-2023-slide-deck.bbl' found.
 Package biblatex Info: Reference section=0 on input line 143.
 Package biblatex Info: Reference segment=0 on input line 143.
  (./01-apha-2023-slide-deck.nav)
-<images-logos/nia-logo.svg.png, id=65, 2569.6pt x 284.06125pt>
+<images-logos/nia-logo.svg.png, id=73, 2569.6pt x 284.06125pt>
 File: images-logos/nia-logo.svg.png Graphic file (type png)
 <use images-logos/nia-logo.svg.png>
 Package pdftex.def Info: images-logos/nia-logo.svg.png  used on input line 161.
@@ -1437,7 +1437,7 @@ Overfull \vbox (1.60002pt too high) has occurred while \output is active []
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s-logos/nia-logo.svg.png>]
-<images-logos/nih-logo.png, id=100, 375.4025pt x 330.23375pt>
+<images-logos/nih-logo.png, id=108, 375.4025pt x 330.23375pt>
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
 Package pdftex.def Info: images-logos/nih-logo.png  used on input line 173.
@@ -1496,13 +1496,13 @@ Package pdftex.def Info: images-logos/nih-logo.png  used on input line 254.
  [6
 
 ]
-<images-logos/covariates-table.png, id=276, 2117.9125pt x 2575.6225pt>
+<images-logos/covariates-table.png, id=284, 2117.9125pt x 2575.6225pt>
 File: images-logos/covariates-table.png Graphic file (type png)
 <use images-logos/covariates-table.png>
 Package pdftex.def Info: images-logos/covariates-table.png  used on input line 
 273.
 (pdftex.def)             Requested size: 175.77054pt x 213.75696pt.
-<images-logos/covariates-table-footer.png, id=277, 2112.89375pt x 492.84125pt>
+<images-logos/covariates-table-footer.png, id=285, 2112.89375pt x 492.84125pt>
 File: images-logos/covariates-table-footer.png Graphic file (type png)
 <use images-logos/covariates-table-footer.png>
 Package pdftex.def Info: images-logos/covariates-table-footer.png  used on inpu
@@ -1551,7 +1551,7 @@ Package pdftex.def Info: images-logos/nih-logo.png  used on input line 325.
  [9
 
 ]
-<images-logos/combo-chloro-time-series.png, id=381, 2248.4pt x 2471.2325pt>
+<images-logos/combo-chloro-time-series.png, id=389, 2248.4pt x 2471.2325pt>
 File: images-logos/combo-chloro-time-series.png Graphic file (type png)
 <use images-logos/combo-chloro-time-series.png>
 Package pdftex.def Info: images-logos/combo-chloro-time-series.png  used on inp
@@ -1573,7 +1573,7 @@ Package pdftex.def Info: images-logos/nih-logo.png  used on input line 350.
 [10
 
  <./images-logos/combo-chloro-time-series.png>]
-<images-logos/combo-forest-map-decomp-jhu.png, id=414, 2370.8575pt x 987.69pt>
+<images-logos/combo-forest-map-decomp-jhu.png, id=422, 2370.8575pt x 987.69pt>
 File: images-logos/combo-forest-map-decomp-jhu.png Graphic file (type png)
 <use images-logos/combo-forest-map-decomp-jhu.png>
 Package pdftex.def Info: images-logos/combo-forest-map-decomp-jhu.png  used on 
@@ -1587,7 +1587,7 @@ Overfull \hbox (7.68677pt too wide) in paragraph at lines 374--374
 [11
 
  <./images-logos/combo-forest-map-decomp-jhu.png>]
-<images-logos/combo-res-var-nbs-jhu.png, id=447, 4281.9975pt x 2409.0pt>
+<images-logos/combo-res-var-nbs-jhu.png, id=457, 4281.9975pt x 2409.0pt>
 File: images-logos/combo-res-var-nbs-jhu.png Graphic file (type png)
 <use images-logos/combo-res-var-nbs-jhu.png>
 Package pdftex.def Info: images-logos/combo-res-var-nbs-jhu.png  used on input 
@@ -1600,6 +1600,46 @@ Overfull \vbox (0.83078pt too high) detected at line 393
 [12
 
  <./images-logos/combo-res-var-nbs-jhu.png>]
+<images-logos/combo-forest-map-decomp-cdc.png, id=490, 2368.85pt x 986.68625pt>
+
+File: images-logos/combo-forest-map-decomp-cdc.png Graphic file (type png)
+<use images-logos/combo-forest-map-decomp-cdc.png>
+Package pdftex.def Info: images-logos/combo-forest-map-decomp-cdc.png  used on 
+input line 417.
+(pdftex.def)             Requested size: 360.04726pt x 149.96883pt.
+
+Overfull \hbox (7.38164pt too wide) in paragraph at lines 417--417
+[]|  []  
+ []
+
+[13
+
+ <./images-logos/combo-forest-map-decomp-cdc.png>]
+<images-logos/sensitivity-combo-forest-map-decomp-cdc.png, id=524, 2371.86125pt
+ x 989.6975pt>
+File: images-logos/sensitivity-combo-forest-map-decomp-cdc.png Graphic file (ty
+pe png)
+<use images-logos/sensitivity-combo-forest-map-decomp-cdc.png>
+Package pdftex.def Info: images-logos/sensitivity-combo-forest-map-decomp-cdc.p
+ng  used on input line 440.
+(pdftex.def)             Requested size: 360.50494pt x 150.42651pt.
+
+Overfull \hbox (7.83932pt too wide) in paragraph at lines 440--440
+[]|  []  
+ []
+
+[14
+
+ <./images-logos/sensitivity-combo-forest-map-decomp-cdc.png>]
+<images-logos/compare-cdc-res-var.png, id=556, 3318.3975pt x 2409.0pt>
+File: images-logos/compare-cdc-res-var.png Graphic file (type png)
+<use images-logos/compare-cdc-res-var.png>
+Package pdftex.def Info: images-logos/compare-cdc-res-var.png  used on input li
+ne 456.
+(pdftex.def)             Requested size: 298.64288pt x 216.80064pt.
+ [15
+
+ <./images-logos/compare-cdc-res-var.png>]
 \tf@nav=\write7
 \openout7 = `01-apha-2023-slide-deck.nav'.
 
@@ -1612,16 +1652,16 @@ Overfull \vbox (0.83078pt too high) detected at line 393
  (./01-apha-2023-slide-deck.aux)
 Package rerunfilecheck Info: File `01-apha-2023-slide-deck.out' has not changed
 .
-(rerunfilecheck)             Checksum: 592CDF8C2FD3592155D1A9303FCD1B48;1290.
+(rerunfilecheck)             Checksum: E87F9A5B27850131428BE2FEE33D2920;1929.
 Package logreq Info: Writing requests to '01-apha-2023-slide-deck.run.xml'.
 \openout1 = `01-apha-2023-slide-deck.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37834 strings out of 476025
- 771285 string characters out of 5790017
+ 37875 strings out of 476025
+ 772492 string characters out of 5790017
  1871388 words of memory out of 5000000
- 57593 multiletter control sequences out of 15000+600000
+ 57623 multiletter control sequences out of 15000+600000
  530500 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,122p,1913b,2085s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1644,10 +1684,10 @@ al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on 01-apha-2023-slide-deck.pdf (12 pages, 5917041 bytes).
+Output written on 01-apha-2023-slide-deck.pdf (15 pages, 9698019 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 483 compressed objects within 5 object streams
- 34 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 684 PDF objects out of 1000 (max. 8388607)
+ 585 compressed objects within 6 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
