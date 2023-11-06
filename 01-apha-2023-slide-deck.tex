@@ -2,7 +2,7 @@
 
 %% % Preamble %%%
 
-\documentclass{beamer}
+\documentclass[aspectratio=169]{beamer}
 
  %redefined colors for beamer 
 \definecolor{beamer@nihblue}{RGB}{0,82,136} 
@@ -126,7 +126,7 @@
 
 %% Institute name and U of I workmark %%
 %% Institute name and U of I workmark %%
-\institute[]{\color{beamer@nihgrey}Laboratory for Epidemiology and Population Sciences \\ % use [] to not have the institute name on the footline
+\institute[]{\color{beamer@nihgrey}Laboratory of Epidemiology \& Population Sciences (LEPS) \\ % use [] to not have the institute name on the footline
 \vspace{7px} % space between name for LEPS and NIA logo
 \includegraphics[scale=0.065]{images-logos/nia-logo.svg.png} } % note that the insertion  of the U of I 
 
@@ -161,14 +161,28 @@
 	\end{frame}
 }
 
-% define FI
+
 \section{Introduction}
+% introeduce racial disparities during pandemic
+\subsection{Racial Disparities During the COVID-19 Pandemic}
+\begin{frame}
+	\centering
+	\begin{figure}
+	\includegraphics[scale=0.152]{images-logos/rac-disp.jpeg}\\
+	
+	\vspace{0.3cm}
+	
+	\tiny{Disparities in COVID-19 mortality during the early pandemic \footfullcite{niall_statista} }
+		\end{figure}
+\end{frame}
+
+% define FI
 \subsection{What is Food Insecurity?}
 \begin{frame}
 	\frametitle{Defining Food Insecurity}
 	
 	
-	According to the United States Dept. of Agriculture (USDA) \textbf{food insecurity} (FI) is defined as: \textit{a lack of consistent access to enough food for every person in a household to live an active, healthy life.}
+	According to the United States Dept. of Agriculture (USDA) \textbf{food insecurity} (FI) is defined as: \textit{a lack of consistent  to enough food for every person in a household to live an active, healthy life.}
 	
 \end{frame}
 
@@ -183,7 +197,8 @@
 		\begin{itemize}
 			\item Housing/redlining and supermarket redlining\footlessfullcite{shaker_redlining_2022}
 		\end{itemize}       
-		\item Government welfare programs mitigate FI \footlessfullcite{swann_household_2017}    \begin{itemize}
+		\item Government welfare programs mitigate FI \footlessfullcite{swann_household_2017}   
+		 \begin{itemize}
 			\item The Supplemental Nutrition Assistance Program (SNAP)
 			\item Women, Infants, and Children (WIC)
 			\item The National School Lunch Program
@@ -239,14 +254,14 @@
 \begin{itemize}
 	\item Variables
 	\begin{itemize}
-		\item \textit{Dependent variable}: \textbf{County-level COVID-19 count}
+		\item \textit{Dependent variable}: \textbf{County-level COVID-19 death count}
 		\begin{itemize}
 			\item \textit{Source \#1}: John Hopkins University Coronavirus Resource Center (age-standardized via \textit{indirect standardization})
-			\item \textit{Source \#2}: Provisional CDC restricted access individual-level data (age-standardized via \textit{direct standardization})
+			\item \textit{Source \#2}: Provisional CDC restricted access case-level data (age-standardized via \textit{direct standardization})
 			\item \textit{Time window}: 03/25/2020-12/25/2021
 		\end{itemize}
 		\vspace{0.2cm}
-		\item \textit{Independent variable}: \textbf{County-level food insecurity prevalence (2020)} (\textit{source}: Feeding America's Map the Meal Gap)
+		\item \textit{Independent variable}: \textbf{County-level food insecurity prevalence (\%) (2020)} (\textit{source}: Feeding America's Map the Meal Gap)
 		\vspace{0.2cm}
 		\vspace{0.2cm}
 	\end{itemize}
@@ -259,7 +274,7 @@
 	\begin{minipage}{.52\textwidth}
 		\hspace{-0.5cm}
 		\centering
-\includegraphics[scale=0.083]{images-logos/covariates-table.png}\\
+\includegraphics[scale=0.075]{images-logos/covariates-table.png}\\
 
 
 	\end{minipage}% the '%' is important for putting the mini pages side by side and not stacked
@@ -281,21 +296,19 @@
 	\textbf{Spatial features}: county polygons
 	\begin{itemize}
 		\item A model for areal data
-		\item Hierarchical Intrinsic Conditional Autoregressive Model (iCAR) \footlessfullcite{besag_spatial_1974}
-		\begin{itemize}
-			\item \textit{Level I}: counties (\textcolor{blue}{$i$}), \textit{Level II}: states (\textcolor{blue}{$j$})
-		\end{itemize}
+		\item Intrinsic Conditional Autoregressive Model (iCAR) \footlessfullcite{besag_spatial_1974}
+	
 	\end{itemize}
 	\centering
 	\begin{tcolorbox}[width = 7.2cm, colframe = red!75!black, title = \scriptsize{Model Specified}, height = 1.5cm, valign=center, halign=center, halign title = center]
-		\textcolor{blue}{$$\ln(\mu_{ij})=\alpha+\mathbf{x}_{ij}^T\boldsymbol{\gamma}+\ln(E_{i})+\upsilon_{i}+u_{j}+e_{i}$$}
+		\textcolor{blue}{$$\ln(\mu_{i})=\alpha+\mathbf{x}_{i}^T\boldsymbol{\gamma}+\ln(E_{i})+\upsilon_{i}+u_{j(i)}+e_{i}$$}
 	\end{tcolorbox}
 	
 	\scriptsize{ \textcolor{blue}{$E_i$} is the expected death count of the  \textcolor{blue}{$i^{th}$} county}\\
 	   \scriptsize{  \textcolor{blue}{$\upsilon_{i}$} is a spatially structured random effect:  \textcolor{blue}{$\upsilon_{i}|\upsilon_{k}\sim N(\frac{\sum_{k=1}^{n}{w_{ik}\upsilon_k}}{\sum_{k=1}^{n}{w_{ik}}}, \frac{\tau^2}{\sum_{k=1}^{n}{w_{ik}}})$}} \\
-	       \tiny{where  \textcolor{blue}{$n$} are the no. of counties,  \textcolor{blue}{$\tau^2$} is the spatial variance,\\ \textcolor{blue}{$w_{ik}$} is the \textcolor{blue}{$i,k$-th} entry in the \textcolor{blue}{$n \times n$} adjacency matrix \textcolor{blue}{$\mathbf{W}$}, and  \textcolor{blue}{$i\neq k$}}\\
+	       \tiny{where  \textcolor{blue}{$n$} are the no. of counties,  \textcolor{blue}{$\tau^2$} is the spatial variance,\\ \textcolor{blue}{$w_{ik}$} is the \textcolor{blue}{$i,k$-th} entry, $\in \{0,1\}$, in the \textcolor{blue}{$n \times n$} adjacency matrix \textcolor{blue}{$\mathbf{W}$}, and  \textcolor{blue}{$i\neq k$}}\\
 	       
-	                    \scriptsize{  \textcolor{blue}{$u_{j}$} is an unstructured state-level random effect:  \textcolor{blue}{$u_{j} \sim N(0,\sigma^2_u)$}}\\
+	                    \scriptsize{  \textcolor{blue}{$u_{j(i)}$} is an unstructured state-level random effect:  \textcolor{blue}{$u_{j(i)} \sim N(0,\sigma^2_u)$}}\\
 	       \vspace{0.2cm}
 	       \scriptsize{  \textcolor{blue}{$e_{i}$} is an unstructured county-level random effect:  \textcolor{blue}{$e_{i} \sim N(0,\sigma^2_e)$}}
 
@@ -305,7 +318,7 @@
     \begin{frame}
 	\frametitle{Additional Analytical Considerations}
 	\begin{itemize}
-		\item Stratify on Census region
+		\item Stratify per Census region
 		\item Sequential Adjustment:
 		\begin{itemize}
 			\item \textbf{Null Model}\textcolor{gray}{: no fixed effects, only random effs. + offset term}
@@ -319,6 +332,7 @@
 			\item \textcolor{gray}{Deviance Information Criterion for selection}
 			\item \textcolor{gray}{Removal of states with suspiciously low mortality rates}
 			\item \textcolor{gray}{Priors}
+			\item \textcolor{gray}{No selection}
 		\end{itemize}
 		
 	\end{itemize}
@@ -332,7 +346,7 @@
 	\begin{minipage}{.52\textwidth}
 		\hspace{-0.5cm}
 		\centering
-		\includegraphics[scale=0.097]{images-logos/combo-chloro-time-series.png}\\
+		\includegraphics[scale=0.092]{images-logos/combo-chloro-time-series.png}\\
 		
 		
 	\end{minipage}% the '%' is important for putting the mini pages side by side and not stacked
@@ -344,7 +358,7 @@
 		
 \vspace{0.21cm}
 
-		\textit{Panel B}: A time series depiction of the cumulative crude (not age- standardized) COVID-19 mortality counts, within the analytic time window, from both sources (mapped to the line colors) and further stratified on urban-rural status (mapped to the line-type). The starting and end dates plotted are based on the beginning and end dates of the first and last MMWR week for the analytics time window.}
+		\textit{Panel B}: A time series depiction of the cumulative crude (not age- standardized) COVID-19 mortality counts, within the analytic time window, from both sources (mapped to the line colors) and further stratified on urban-rural status (mapped to the line-type). The starting and end dates plotted are based on the beginning and end dates of the first and last MMWR week for the analytic time window.}
 		
 	\end{minipage}
 \end{frame}    
@@ -356,12 +370,13 @@
 	
 	
 	
-	\vspace*{-0.04 cm}
-	\hspace*{-0.45 cm}
-	\includegraphics[scale=0.152]{images-logos/combo-forest-map-decomp-jhu.png}
+	\vspace*{-0.02 cm}
+	\hspace*{-0.35 cm}
+	\centering
+	\includegraphics[scale=0.093]{images-logos/combo-forest-map-decomp-jhu.png}
 	
 	\raggedright
-	\tiny{\textbf{Figure 2}. \textit{Panel A}: Means and their 95\% credible intervals (CrIs) for posterior distributions of the $exp(parameter)$ for the food insecurity (FI) fixed effect for the \textit{final model} (reflecting a standard deviation--4\%-- increase). A model was fit to the entire dataset (i.e., the National model) and a stratified analysis was conducted per Census region. Open circles denote posterior means with 95\% CrIs whose bounds are completely above or below the reference value of 1 (dashed line). Results are shown for the analysis performed only on the age-standardized Johns Hopkins (JHU) COVID-19 mortality data. 
+	\tiny{\textbf{Figure 2}. \textit{Panel A}: Means and their 95\% credible intervals (CrIs) for posterior distributions of the $exp(parameter)$ for the food insecurity (FI) fixed effect for the \textit{final model} (reflecting a standard deviation--4\%-- increase). A model was fit to the entire dataset (i.e., the National model--\textit{n} = 3102) and a stratified analysis was conducted per Census region. Open circles denote posterior means with 95\% CrIs whose bounds are completely above or below the reference value of 1 (dashed line). Results are shown for the analysis performed only on the age-standardized Johns Hopkins (JHU) COVID-19 mortality data. 
 		
 		\vspace{0.25cm}
 		
@@ -377,16 +392,11 @@
 \vspace*{-0.1cm}
 			\begin{figure}
 				\centering
-				\includegraphics[scale=0.076]{images-logos/combo-res-var-nbs-jhu.png}
+				\includegraphics[scale=0.082]{images-logos/combo-res-var-nbs-jhu.png}
 				
 			\end{figure}      
 			\vspace{-0.17cm}
-			\tiny{\textbf{Figure 3}. \textit{Panel A}: Residual variance, computed as the sum of the variances of the random effects, across all models using national JHU data.  \textit{Panel B}: Standard deviation of the spatially structured random effect (in the final model using national JHU data) mapped to the number of neighbors. The LOESS smoother is shown.\\
-				The null model includes the three random effects listed in addition to the offset term and no fixed effects.\\
-				The basic model further adjusted for county-level median age, health index score, and the standardized incidence ratio (SIR).\\
-				The basic + state model further adjusted for state-level means of the health index score, the SIR, percent vaccinated, and the 2020 general election margin.\\
-				The final model further adjusted for percent female inhabitants and percent Hispanic inhabitants. 
-			}
+			\tiny{\textbf{Figure 3}. \textit{Panel A}: Residual variance, computed as the sum of the variances of the random effects, across all models using national JHU data.\\  \textit{Panel B}: Standard deviation of the spatially structured random effect (in the final model using national JHU data) mapped to the number of neighbors. The LOESS smoother is shown.}
 
 
 
@@ -399,9 +409,10 @@
 	
 	
 	
-	\vspace*{-0.04 cm}
+	\vspace*{-0.02 cm}
 	\hspace*{-0.45 cm}
-	\includegraphics[scale=0.152]{images-logos/combo-forest-map-decomp-cdc.png}
+	\centering
+	\includegraphics[scale=0.122]{images-logos/combo-forest-map-decomp-cdc.png}
 	
 	\raggedright
 	\tiny{\textbf{Figure 2}. \textit{Panel A}: Means and their 95\% credible intervals (CrIs) for posterior distributions of the $exp(parameter)$ for the food insecurity (FI) fixed effect for the \textit{final model} (reflecting a standard deviation--4\%-- increase). A model was fit to the entire dataset (i.e., the National model) and a stratified analysis was conducted per Census region. Open circles denote posterior means with 95\% CrIs whose bounds are completely above or below the reference value of 1 (dashed line). Results are shown for the analysis performed only on the age-standardized CDC COVID-19 mortality data. 
@@ -422,9 +433,10 @@
 	
 	
 	
-	\vspace*{-0.04 cm}
+	\vspace*{-0.02 cm}
 	\hspace*{-0.45 cm}
-	\includegraphics[scale=0.152]{images-logos/sensitivity-combo-forest-map-decomp-cdc.png}
+	\centering
+	\includegraphics[scale=0.117]{images-logos/sensitivity-combo-forest-map-decomp-cdc.png}
 	
 	\raggedright
 	\tiny{\textbf{Figure S5}. \textit{Panel A}: Means and their 95\% credible intervals (CrIs) for posterior distributions of the $exp(parameter)$ for the food insecurity (FI) fixed effect for the \textit{final model} (reflecting a standard deviation--4\%-- increase). A model was fit to the entire dataset (i.e., the National model) and a stratified analysis was conducted per Census region. Open circles denote posterior means with 95\% CrIs whose bounds are completely above or below the reference value of 1 (dashed line). Results are shown for the analysis performed only on the age-standardized CDC COVID-19 mortality data. 
@@ -446,13 +458,121 @@
 \centering
 		\vspace*{-0.19 cm}
 
-		\includegraphics[scale=0.09]{images-logos/compare-cdc-res-var.png}
+		\includegraphics[scale=0.082]{images-logos/compare-cdc-res-var.png}
 		
 	
 		
 		\tiny{\textit{Panel A}: Total residual variance and relative composition from the main analysis using the CDC data (\textit{final model}).\\
 			\textit{Panel B}: Total residual variance and relative composition from the state sensitivity analysis using the CDC data (\textit{final model}).}
 			
+\end{frame}
+
+% conclusions
+\section{Conclusion}
+\subsection{Conclusions}
+\begin{frame}
+	\frametitle{Conclusions}
+	\textbf{Conclusions and Strengths}:
+	\begin{itemize}
+		\item \textit{County-level food insecurity was positively associated with COVID-19 mortality}
+		\begin{itemize}
+			\scriptsize{
+				\item Spatial autocorrelation
+				\item Multivariable adjustment, age-standardization
+				\item Regional specificity
+				\item Robustness
+			}
+		\end{itemize}
+		\item \textit{Gaps in COVID-19 mortality data?}
+		\begin{itemize}
+			\scriptsize{
+				\item CDC vs. JHU
+			}
+		\end{itemize}
+	\end{itemize}
+	
+	\textbf{Limitations}:
+	\begin{itemize}
+		\item Unmeasured confounding, causality
+		\item Spatial resolution
+		\item Aggregate data; ecological fallacy
+	\end{itemize}
+	
+\end{frame}
+
+
+  % acknowledgements
+  \subsection{Acknowledgements}
+\begin{frame}
+	\frametitle{Acknowledgements}
+	\vspace*{-0.3cm}
+	\begin{multicols}{2} % split this into multiple columns
+		
+		\raggedright
+	
+		
+		\textbf{Collaborators}
+		
+		\scriptsize{
+			\begin{itemize}
+				\item Rebecca L. Smith (\textit{Dept of. Pathobiology, Univ. of Illinois Urbana-Champaign (UIUC)})
+				\item Mauricio Campos (\textit{Dept. of Statistics, UIUC})
+				\item Sara L. McLafferty (\textit{Dept. of Geography and Geographic Information Science, UIUC})
+				\item May A. Beydoun (\textit{LEPS, NIH/NIA})
+				\item Anna E. Arthur (\textit{Dept. of Nutrition and Dietetics, Univ. of Kansas Medical Center})
+				\item Francesca Gany (\textit{Memorial Sloan Kettering Cancer Center})
+			
+			\end{itemize}
+		}
+		
+		% add github repo link
+			\vspace{0.4cm}
+			
+			\scriptsize{
+			\textbf{GitHub Repository (R Code and Data)}
+
+\textcolor{blue}{\href{https://github.com/cmainov/covid-fi-mortality-mirror}{github.com/cmainov/covid-fi-mortality-mirror}}
+		
+		}
+		% both below are needed for the column break
+		\vfill\null
+		\columnbreak
+		
+		
+		\scriptsize{
+			\textbf{2023 HPRS Writing Retreat}
+			\begin{itemize}
+				\item Jeronimo Cortina (\textit{Univ. of Houston})
+				\item Alex Maxim (\textit{Georgia Tech Univ.})
+				\item Nayla Bezares (\textit{Tufts Univ.})
+			\end{itemize}
+		}
+		
+		\vspace{0.1cm}
+		
+		\textbf{Funding}
+		\vspace{0.2cm}
+		\scriptsize{
+			\begin{itemize}
+				\item \textit{Robert Wood Johnson Foundation (RWJF) Health Policy Research Scholars (HPRS)}
+			\end{itemize}
+		}
+		
+		\textbf{Data}
+		\vspace{0.1cm}
+		\scriptsize{
+			\begin{itemize}
+				\item \textit{CDC}
+				\item \textit{JHU CRC}
+				\item \textit{2023 County Health Rankings--RWJF and Univ. of Wisconsin}
+			\end{itemize}
+		}
+		\vspace{0.4cm}
+		
+		% shift github logo and link to the right
+	 \hspace*{2.80cm}	\faGithub \hspace{0.05cm} \textcolor{blue}{\href{https://github.com/cmainov}{github.com/cmainov}}
+	\end{multicols}
+	
 \end{frame}
 
 \end{document}

@@ -240,6 +240,33 @@
     \field{urlyear}{2021}
   \endentry
 
+  \entry{niall_statista}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MN}{%
+         family={McCarthy},
+         familyi={M\bibinitperiod},
+         given={Niall},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \strng{namehash}{MN1}
+    \strng{fullhash}{MN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{The Pandemic's Racial Disparity}
+    \verb{url}
+    \verb https://www.statista.com/chart/22430/coronavirus-deaths-by-race-in-th
+    \verb e-us/
+    \endverb
+    \field{journaltitle}{Statista}
+    \field{year}{2020}
+  \endentry
+
   \entry{seligman_hunger_2010}{article}{}
     \name{author}{2}{}{%
       {{hash=SHK}{%

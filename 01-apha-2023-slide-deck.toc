@@ -1,11 +1,15 @@
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{What is Food Insecurity?}{2}{0}{1}
-\beamer@subsectionintoc {1}{2}{Research Question and Hypothesis}{5}{0}{1}
-\beamer@sectionintoc {2}{Methods}{6}{0}{2}
-\beamer@subsectionintoc {2}{1}{Variables}{6}{0}{2}
-\beamer@subsectionintoc {2}{2}{Model Specification}{8}{0}{2}
-\beamer@sectionintoc {3}{Results}{10}{0}{3}
-\beamer@subsectionintoc {3}{1}{Descriptives}{10}{0}{3}
-\beamer@subsectionintoc {3}{2}{Spatial Models w/ INLA (JHU Data)}{11}{0}{3}
-\beamer@subsectionintoc {3}{3}{Spatial Models w/ INLA (CDC Data)}{13}{0}{3}
-\beamer@subsectionintoc {3}{4}{State Sensitivity Analysis: Spatial Models w/ INLA (CDC Data)}{14}{0}{3}
+\beamer@subsectionintoc {1}{1}{Racial Disparities During the COVID-19 Pandemic}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{What is Food Insecurity?}{3}{0}{1}
+\beamer@subsectionintoc {1}{3}{Research Question and Hypothesis}{6}{0}{1}
+\beamer@sectionintoc {2}{Methods}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Variables}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Model Specification}{9}{0}{2}
+\beamer@sectionintoc {3}{Results}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Descriptives}{11}{0}{3}
+\beamer@subsectionintoc {3}{2}{Spatial Models w/ INLA (JHU Data)}{12}{0}{3}
+\beamer@subsectionintoc {3}{3}{Spatial Models w/ INLA (CDC Data)}{14}{0}{3}
+\beamer@subsectionintoc {3}{4}{State Sensitivity Analysis: Spatial Models w/ INLA (CDC Data)}{15}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{17}{0}{4}
+\beamer@subsectionintoc {4}{1}{Conclusions}{17}{0}{4}
+\beamer@subsectionintoc {4}{2}{Acknowledgements}{18}{0}{4}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.14)  23 OCT 2023 09:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.14)  6 NOV 2023 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1271,12 +1271,12 @@ LaTeX Font Info:    ... okay on input line 143.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
-* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
-* \paperwidth=364.19536pt
-* \paperheight=273.14662pt
-* \textwidth=342.2953pt
-* \textheight=244.6939pt
+* h-part:(L,W,R)=(10.95003pt, 433.34402pt, 10.95003pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=433.34402pt
+* \textheight=227.62207pt
 * \oddsidemargin=-61.31996pt
 * \evensidemargin=-61.31996pt
 * \topmargin=-72.26999pt
@@ -1423,7 +1423,7 @@ Package biblatex Info: ... file '01-apha-2023-slide-deck.bbl' found.
 Package biblatex Info: Reference section=0 on input line 143.
 Package biblatex Info: Reference segment=0 on input line 143.
  (./01-apha-2023-slide-deck.nav)
-<images-logos/nia-logo.svg.png, id=73, 2569.6pt x 284.06125pt>
+<images-logos/nia-logo.svg.png, id=90, 2569.6pt x 284.06125pt>
 File: images-logos/nia-logo.svg.png Graphic file (type png)
 <use images-logos/nia-logo.svg.png>
 Package pdftex.def Info: images-logos/nia-logo.svg.png  used on input line 161.
@@ -1437,49 +1437,54 @@ Overfull \vbox (1.60002pt too high) has occurred while \output is active []
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s-logos/nia-logo.svg.png>]
-<images-logos/nih-logo.png, id=108, 375.4025pt x 330.23375pt>
-File: images-logos/nih-logo.png Graphic file (type png)
-<use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 173.
-(pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
- [2
-
- <./images-logos/nih-logo.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 192
+<images-logos/rac-disp.jpeg, id=125, 1204.5pt x 1204.5pt>
+File: images-logos/rac-disp.jpeg Graphic file (type jpg)
+<use images-logos/rac-disp.jpeg>
+Package pdftex.def Info: images-logos/rac-disp.jpeg  used on input line 177.
+(pdftex.def)             Requested size: 183.07487pt x 183.07487pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 177
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 192
+LaTeX Font Info:    Trying to load font information for U+msb on input line 177
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 192.
+ut line 177.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <6> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 192.
-
+<images-logos/nih-logo.png, id=126, 375.4025pt x 330.23375pt>
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 192.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 177.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
-[3
+ [2
+
+ <./images-logos/nih-logo.png> <./images-logos/rac-disp.jpeg>]
+File: images-logos/nih-logo.png Graphic file (type png)
+<use images-logos/nih-logo.png>
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 187.
+(pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
+ [3
 
 ]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <6> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 207.
+
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 218.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 207.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
- [4
+[4
 
 ]
 File: images-logos/nih-logo.png Graphic file (type png)
@@ -1491,155 +1496,158 @@ Package pdftex.def Info: images-logos/nih-logo.png  used on input line 233.
 ]
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 254.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 248.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
  [6
 
 ]
-<images-logos/covariates-table.png, id=284, 2117.9125pt x 2575.6225pt>
+File: images-logos/nih-logo.png Graphic file (type png)
+<use images-logos/nih-logo.png>
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 269.
+(pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
+ [7
+
+]
+<images-logos/covariates-table.png, id=341, 2117.9125pt x 2575.6225pt>
 File: images-logos/covariates-table.png Graphic file (type png)
 <use images-logos/covariates-table.png>
 Package pdftex.def Info: images-logos/covariates-table.png  used on input line 
-273.
-(pdftex.def)             Requested size: 175.77054pt x 213.75696pt.
-<images-logos/covariates-table-footer.png, id=285, 2112.89375pt x 492.84125pt>
+288.
+(pdftex.def)             Requested size: 158.83658pt x 193.16335pt.
+<images-logos/covariates-table-footer.png, id=342, 2112.89375pt x 492.84125pt>
 File: images-logos/covariates-table-footer.png Graphic file (type png)
 <use images-logos/covariates-table-footer.png>
 Package pdftex.def Info: images-logos/covariates-table-footer.png  used on inpu
-t line 273.
+t line 288.
 (pdftex.def)             Requested size: 175.35402pt x 40.90204pt.
 
-Overfull \hbox (11.05374pt too wide) in paragraph at lines 273--273
- [][]
- []
-
-
-Overfull \vbox (4.4196pt too high) detected at line 273
+Overfull \vbox (0.89781pt too high) detected at line 288
  []
 
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 273.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 288.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
-[7
+[8
 
  <./images-logos/covariates-table.png> <./images-logos/covariates-table-footer.
 png>]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 302.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 315.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 302.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 315.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 302.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 315.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 302.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 315.
 
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 302.
-(pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
- [8
-
-]
-File: images-logos/nih-logo.png Graphic file (type png)
-<use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 325.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 315.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
  [9
 
 ]
-<images-logos/combo-chloro-time-series.png, id=389, 2248.4pt x 2471.2325pt>
+File: images-logos/nih-logo.png Graphic file (type png)
+<use images-logos/nih-logo.png>
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 339.
+(pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
+ [10
+
+]
+<images-logos/combo-chloro-time-series.png, id=448, 2248.4pt x 2471.2325pt>
 File: images-logos/combo-chloro-time-series.png Graphic file (type png)
 <use images-logos/combo-chloro-time-series.png>
 Package pdftex.def Info: images-logos/combo-chloro-time-series.png  used on inp
-ut line 350.
-(pdftex.def)             Requested size: 218.09454pt x 239.70926pt.
+ut line 364.
+(pdftex.def)             Requested size: 206.84158pt x 227.34106pt.
 
-Overfull \hbox (40.09953pt too wide) in paragraph at lines 350--350
- [] 
- []
-
-
-Overfull \vbox (0.9625pt too high) detected at line 350
+Overfull \vbox (4.66612pt too high) detected at line 364
  []
 
 File: images-logos/nih-logo.png Graphic file (type png)
 <use images-logos/nih-logo.png>
-Package pdftex.def Info: images-logos/nih-logo.png  used on input line 350.
+Package pdftex.def Info: images-logos/nih-logo.png  used on input line 364.
 (pdftex.def)             Requested size: 30.0328pt x 26.41924pt.
-[10
+[11
 
  <./images-logos/combo-chloro-time-series.png>]
-<images-logos/combo-forest-map-decomp-jhu.png, id=422, 2370.8575pt x 987.69pt>
+<images-logos/combo-forest-map-decomp-jhu.png, id=483, 3848.3775pt x 1609.01125
+pt>
 File: images-logos/combo-forest-map-decomp-jhu.png Graphic file (type png)
 <use images-logos/combo-forest-map-decomp-jhu.png>
 Package pdftex.def Info: images-logos/combo-forest-map-decomp-jhu.png  used on 
-input line 374.
-(pdftex.def)             Requested size: 360.35239pt x 150.1214pt.
+input line 389.
+(pdftex.def)             Requested size: 357.90715pt x 149.6414pt.
 
-Overfull \hbox (7.68677pt too wide) in paragraph at lines 374--374
-[]|  []  
- []
-
-[11
-
- <./images-logos/combo-forest-map-decomp-jhu.png>]
-<images-logos/combo-res-var-nbs-jhu.png, id=457, 4281.9975pt x 2409.0pt>
-File: images-logos/combo-res-var-nbs-jhu.png Graphic file (type png)
-<use images-logos/combo-res-var-nbs-jhu.png>
-Package pdftex.def Info: images-logos/combo-res-var-nbs-jhu.png  used on input 
-line 393.
-(pdftex.def)             Requested size: 325.44826pt x 183.09325pt.
-
-Overfull \vbox (0.83078pt too high) detected at line 393
+Overfull \vbox (2.55136pt too high) detected at line 389
  []
 
 [12
 
- <./images-logos/combo-res-var-nbs-jhu.png>]
-<images-logos/combo-forest-map-decomp-cdc.png, id=490, 2368.85pt x 986.68625pt>
+ <./images-logos/combo-forest-map-decomp-jhu.png>]
+<images-logos/combo-res-var-nbs-jhu.png, id=520, 4281.9975pt x 2409.0pt>
+File: images-logos/combo-res-var-nbs-jhu.png Graphic file (type png)
+<use images-logos/combo-res-var-nbs-jhu.png>
+Package pdftex.def Info: images-logos/combo-res-var-nbs-jhu.png  used on input 
+line 403.
+(pdftex.def)             Requested size: 351.12607pt x 197.53928pt.
+ [13
 
+ <./images-logos/combo-res-var-nbs-jhu.png>]
+<images-logos/combo-forest-map-decomp-cdc.png, id=554, 2965.0775pt x 1237.62375
+pt>
 File: images-logos/combo-forest-map-decomp-cdc.png Graphic file (type png)
 <use images-logos/combo-forest-map-decomp-cdc.png>
 Package pdftex.def Info: images-logos/combo-forest-map-decomp-cdc.png  used on 
-input line 417.
-(pdftex.def)             Requested size: 360.04726pt x 149.96883pt.
+input line 428.
+(pdftex.def)             Requested size: 361.72084pt x 150.98232pt.
 
-Overfull \hbox (7.38164pt too wide) in paragraph at lines 417--417
-[]|  []  
- []
-
-[13
-
- <./images-logos/combo-forest-map-decomp-cdc.png>]
-<images-logos/sensitivity-combo-forest-map-decomp-cdc.png, id=524, 2371.86125pt
- x 989.6975pt>
-File: images-logos/sensitivity-combo-forest-map-decomp-cdc.png Graphic file (ty
-pe png)
-<use images-logos/sensitivity-combo-forest-map-decomp-cdc.png>
-Package pdftex.def Info: images-logos/sensitivity-combo-forest-map-decomp-cdc.p
-ng  used on input line 440.
-(pdftex.def)             Requested size: 360.50494pt x 150.42651pt.
-
-Overfull \hbox (7.83932pt too wide) in paragraph at lines 440--440
-[]|  []  
+Overfull \vbox (3.89227pt too high) detected at line 428
  []
 
 [14
 
+ <./images-logos/combo-forest-map-decomp-cdc.png>]
+<images-logos/sensitivity-combo-forest-map-decomp-cdc.png, id=588, 3111.625pt x
+ 1299.85625pt>
+File: images-logos/sensitivity-combo-forest-map-decomp-cdc.png Graphic file (ty
+pe png)
+<use images-logos/sensitivity-combo-forest-map-decomp-cdc.png>
+Package pdftex.def Info: images-logos/sensitivity-combo-forest-map-decomp-cdc.p
+ng  used on input line 452.
+(pdftex.def)             Requested size: 364.0729pt x 152.08852pt.
+
+Overfull \vbox (4.99847pt too high) detected at line 452
+ []
+
+[15
+
  <./images-logos/sensitivity-combo-forest-map-decomp-cdc.png>]
-<images-logos/compare-cdc-res-var.png, id=556, 3318.3975pt x 2409.0pt>
+<images-logos/compare-cdc-res-var.png, id=622, 3318.3975pt x 2409.0pt>
 File: images-logos/compare-cdc-res-var.png Graphic file (type png)
 <use images-logos/compare-cdc-res-var.png>
 Package pdftex.def Info: images-logos/compare-cdc-res-var.png  used on input li
-ne 456.
-(pdftex.def)             Requested size: 298.64288pt x 216.80064pt.
- [15
+ne 468.
+(pdftex.def)             Requested size: 272.11035pt x 197.53928pt.
+ [16
 
- <./images-logos/compare-cdc-res-var.png>]
+ <./images-logos/compare-cdc-res-var.png>] [17
+
+]
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 576.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
+[18
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.
+enc}]
 \tf@nav=\write7
 \openout7 = `01-apha-2023-slide-deck.nav'.
 
@@ -1652,42 +1660,43 @@ ne 456.
  (./01-apha-2023-slide-deck.aux)
 Package rerunfilecheck Info: File `01-apha-2023-slide-deck.out' has not changed
 .
-(rerunfilecheck)             Checksum: E87F9A5B27850131428BE2FEE33D2920;1929.
+(rerunfilecheck)             Checksum: 4A80C24313D32B59E1BD979C90EFF75B;2584.
 Package logreq Info: Writing requests to '01-apha-2023-slide-deck.run.xml'.
 \openout1 = `01-apha-2023-slide-deck.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37875 strings out of 476025
- 772492 string characters out of 5790017
+ 37944 strings out of 476025
+ 774134 string characters out of 5790017
  1871388 words of memory out of 5000000
- 57623 multiletter control sequences out of 15000+600000
- 530500 words of font info for 91 fonts, out of 8000000 for 9000
+ 57675 multiletter control sequences out of 15000+600000
+ 531167 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,122p,1913b,2085s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
-b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7
-.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pf
-b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
-/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on 01-apha-2023-slide-deck.pdf (15 pages, 9698019 bytes).
+ 128i,17n,122p,1913b,2084s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
+e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc1
+0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/c
+mex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.
+pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pf
+b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/l
+ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
+al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on 01-apha-2023-slide-deck.pdf (18 pages, 14698933 bytes).
 PDF statistics:
- 684 PDF objects out of 1000 (max. 8388607)
- 585 compressed objects within 6 object streams
- 42 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 824 PDF objects out of 1000 (max. 8388607)
+ 716 compressed objects within 8 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -22,44 +22,44 @@ Database file #2: 01-apha-2023-slide-deck.bib
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 8 entries,
+You've used 9 entries,
             6399 wiz_defined-function locations,
-            1280 strings with 18461 characters,
-and the built_in function-call counts, 66463 in all, are:
-= -- 4725
-> -- 2143
-< -- 285
-+ -- 2611
-- -- 1502
-* -- 4779
-:= -- 7991
+            1285 strings with 18602 characters,
+and the built_in function-call counts, 70837 in all, are:
+= -- 4997
+> -- 2225
+< -- 313
++ -- 2705
+- -- 1530
+* -- 5066
+:= -- 8392
 add.period$ -- 0
-call.type$ -- 8
-change.case$ -- 7
+call.type$ -- 9
+change.case$ -- 8
 chr.to.int$ -- 192
-cite$ -- 14
-duplicate$ -- 5860
-empty$ -- 5724
-format.name$ -- 441
-if$ -- 12531
+cite$ -- 16
+duplicate$ -- 6379
+empty$ -- 6153
+format.name$ -- 489
+if$ -- 13450
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 23
 missing$ -- 0
-newline$ -- 343
-num.names$ -- 318
-pop$ -- 2441
+newline$ -- 370
+num.names$ -- 365
+pop$ -- 2772
 preamble$ -- 1
-purify$ -- 118
+purify$ -- 133
 quote$ -- 0
-skip$ -- 1483
+skip$ -- 1663
 stack$ -- 0
-substring$ -- 9781
-swap$ -- 1416
-text.length$ -- 264
-text.prefix$ -- 7
+substring$ -- 10173
+swap$ -- 1544
+text.length$ -- 289
+text.prefix$ -- 8
 top$ -- 1
-type$ -- 260
+type$ -- 294
 warning$ -- 0
-while$ -- 861
+while$ -- 915
 width$ -- 0
-write$ -- 336
+write$ -- 362
